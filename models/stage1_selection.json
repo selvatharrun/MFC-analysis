@@ -1,0 +1,296 @@
+{
+  "best_models": {
+    "IEC": "LightGBM",
+    "swelling": "LightGBM",
+    "pc_S_cm": "HistGradientBoosting",
+    "thickness": "HistGradientBoosting"
+  },
+  "transforms": {
+    "IEC": "linear",
+    "swelling": "linear",
+    "pc_S_cm": "log10",
+    "thickness": "log10"
+  },
+  "cv": [
+    {
+      "target": "IEC (meq/g)",
+      "model": "LightGBM",
+      "n": 62,
+      "R2_pooled": 0.1204,
+      "R2_fold_mean": -0.27801,
+      "R2_fold_std": 0.48286,
+      "MAE": 0.28428,
+      "RMSE": 0.40687
+    },
+    {
+      "target": "IEC (meq/g)",
+      "model": "RandomForest",
+      "n": 62,
+      "R2_pooled": 0.06692,
+      "R2_fold_mean": -0.09927,
+      "R2_fold_std": 0.23618,
+      "MAE": 0.2781,
+      "RMSE": 0.41906
+    },
+    {
+      "target": "IEC (meq/g)",
+      "model": "Ridge",
+      "n": 62,
+      "R2_pooled": 0.0666,
+      "R2_fold_mean": -0.07409,
+      "R2_fold_std": 0.1898,
+      "MAE": 0.28561,
+      "RMSE": 0.41913
+    },
+    {
+      "target": "IEC (meq/g)",
+      "model": "XGBoost",
+      "n": 62,
+      "R2_pooled": 0.03759,
+      "R2_fold_mean": -0.22474,
+      "R2_fold_std": 0.23582,
+      "MAE": 0.29519,
+      "RMSE": 0.42559
+    },
+    {
+      "target": "IEC (meq/g)",
+      "model": "ExtraTrees",
+      "n": 62,
+      "R2_pooled": -0.01633,
+      "R2_fold_mean": -0.19264,
+      "R2_fold_std": 0.32864,
+      "MAE": 0.29789,
+      "RMSE": 0.43735
+    },
+    {
+      "target": "IEC (meq/g)",
+      "model": "HistGradientBoosting",
+      "n": 62,
+      "R2_pooled": -0.0509,
+      "R2_fold_mean": -0.58595,
+      "R2_fold_std": 0.42854,
+      "MAE": 0.34656,
+      "RMSE": 0.44473
+    },
+    {
+      "target": "IEC (meq/g)",
+      "model": "Baseline (mean)",
+      "n": 62,
+      "R2_pooled": -0.06054,
+      "R2_fold_mean": -0.20901,
+      "R2_fold_std": 0.18151,
+      "MAE": 0.29485,
+      "RMSE": 0.44676
+    },
+    {
+      "target": "Proton conductivity (S/cm)",
+      "model": "Baseline (mean)",
+      "n": 59,
+      "R2_pooled": -0.20871,
+      "R2_fold_mean": -0.69158,
+      "R2_fold_std": 0.97647,
+      "MAE": 0.00783,
+      "RMSE": 0.01291
+    },
+    {
+      "target": "Proton conductivity (S/cm)",
+      "model": "HistGradientBoosting",
+      "n": 59,
+      "R2_pooled": -0.24909,
+      "R2_fold_mean": -0.77056,
+      "R2_fold_std": 1.04979,
+      "MAE": 0.00745,
+      "RMSE": 0.01312
+    },
+    {
+      "target": "Proton conductivity (S/cm)",
+      "model": "XGBoost",
+      "n": 59,
+      "R2_pooled": -0.26499,
+      "R2_fold_mean": -0.49325,
+      "R2_fold_std": 0.49294,
+      "MAE": 0.00752,
+      "RMSE": 0.01321
+    },
+    {
+      "target": "Proton conductivity (S/cm)",
+      "model": "RandomForest",
+      "n": 59,
+      "R2_pooled": -0.32743,
+      "R2_fold_mean": -0.8585,
+      "R2_fold_std": 1.04079,
+      "MAE": 0.00794,
+      "RMSE": 0.01353
+    },
+    {
+      "target": "Proton conductivity (S/cm)",
+      "model": "LightGBM",
+      "n": 59,
+      "R2_pooled": -0.39513,
+      "R2_fold_mean": -1.07322,
+      "R2_fold_std": 1.2811,
+      "MAE": 0.00792,
+      "RMSE": 0.01387
+    },
+    {
+      "target": "Proton conductivity (S/cm)",
+      "model": "Ridge",
+      "n": 59,
+      "R2_pooled": -0.40116,
+      "R2_fold_mean": -0.93462,
+      "R2_fold_std": 0.88432,
+      "MAE": 0.00839,
+      "RMSE": 0.0139
+    },
+    {
+      "target": "Proton conductivity (S/cm)",
+      "model": "ExtraTrees",
+      "n": 59,
+      "R2_pooled": -0.49674,
+      "R2_fold_mean": -1.29314,
+      "R2_fold_std": 1.15184,
+      "MAE": 0.00884,
+      "RMSE": 0.01436
+    },
+    {
+      "target": "Thickness (\u00b5m)",
+      "model": "Baseline (mean)",
+      "n": 49,
+      "R2_pooled": -0.09829,
+      "R2_fold_mean": -0.29306,
+      "R2_fold_std": 0.31176,
+      "MAE": 32.70792,
+      "RMSE": 35.65614
+    },
+    {
+      "target": "Thickness (\u00b5m)",
+      "model": "HistGradientBoosting",
+      "n": 49,
+      "R2_pooled": -0.118,
+      "R2_fold_mean": -0.31101,
+      "R2_fold_std": 0.2284,
+      "MAE": 32.10125,
+      "RMSE": 35.9746
+    },
+    {
+      "target": "Thickness (\u00b5m)",
+      "model": "RandomForest",
+      "n": 49,
+      "R2_pooled": -0.16024,
+      "R2_fold_mean": -0.37825,
+      "R2_fold_std": 0.45092,
+      "MAE": 32.7093,
+      "RMSE": 36.64793
+    },
+    {
+      "target": "Thickness (\u00b5m)",
+      "model": "LightGBM",
+      "n": 49,
+      "R2_pooled": -0.3462,
+      "R2_fold_mean": -0.7046,
+      "R2_fold_std": 1.03152,
+      "MAE": 33.6688,
+      "RMSE": 39.47565
+    },
+    {
+      "target": "Thickness (\u00b5m)",
+      "model": "ExtraTrees",
+      "n": 49,
+      "R2_pooled": -0.41548,
+      "R2_fold_mean": -0.67505,
+      "R2_fold_std": 0.52641,
+      "MAE": 32.88303,
+      "RMSE": 40.47868
+    },
+    {
+      "target": "Thickness (\u00b5m)",
+      "model": "Ridge",
+      "n": 49,
+      "R2_pooled": -0.46439,
+      "R2_fold_mean": -0.62167,
+      "R2_fold_std": 0.7163,
+      "MAE": 35.00503,
+      "RMSE": 41.17209
+    },
+    {
+      "target": "Thickness (\u00b5m)",
+      "model": "XGBoost",
+      "n": 49,
+      "R2_pooled": -0.87968,
+      "R2_fold_mean": -1.03029,
+      "R2_fold_std": 1.00683,
+      "MAE": 36.73885,
+      "RMSE": 46.64629
+    },
+    {
+      "target": "Water swelling (%)",
+      "model": "LightGBM",
+      "n": 66,
+      "R2_pooled": 0.007,
+      "R2_fold_mean": -0.59164,
+      "R2_fold_std": 0.72368,
+      "MAE": 12.47113,
+      "RMSE": 20.08767
+    },
+    {
+      "target": "Water swelling (%)",
+      "model": "HistGradientBoosting",
+      "n": 66,
+      "R2_pooled": -0.00999,
+      "R2_fold_mean": -0.56025,
+      "R2_fold_std": 0.76716,
+      "MAE": 12.64689,
+      "RMSE": 20.25878
+    },
+    {
+      "target": "Water swelling (%)",
+      "model": "RandomForest",
+      "n": 66,
+      "R2_pooled": -0.04107,
+      "R2_fold_mean": -0.45356,
+      "R2_fold_std": 0.55273,
+      "MAE": 12.34055,
+      "RMSE": 20.56813
+    },
+    {
+      "target": "Water swelling (%)",
+      "model": "Baseline (mean)",
+      "n": 66,
+      "R2_pooled": -0.04582,
+      "R2_fold_mean": -0.58091,
+      "R2_fold_std": 0.69971,
+      "MAE": 12.63851,
+      "RMSE": 20.61501
+    },
+    {
+      "target": "Water swelling (%)",
+      "model": "XGBoost",
+      "n": 66,
+      "R2_pooled": -0.19111,
+      "R2_fold_mean": -0.27605,
+      "R2_fold_std": 0.40718,
+      "MAE": 12.3548,
+      "RMSE": 22.00039
+    },
+    {
+      "target": "Water swelling (%)",
+      "model": "Ridge",
+      "n": 66,
+      "R2_pooled": -0.19845,
+      "R2_fold_mean": -0.3692,
+      "R2_fold_std": 0.16138,
+      "MAE": 12.60438,
+      "RMSE": 22.06812
+    },
+    {
+      "target": "Water swelling (%)",
+      "model": "ExtraTrees",
+      "n": 66,
+      "R2_pooled": -0.24163,
+      "R2_fold_mean": -0.62691,
+      "R2_fold_std": 0.51542,
+      "MAE": 13.5616,
+      "RMSE": 22.46212
+    }
+  ]
+}

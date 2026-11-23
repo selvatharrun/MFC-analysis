@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.kernel/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Generated artifacts (recreated by running the notebook) ---
+# Uncomment the lines below if you prefer to keep the repo free of
+# large binary models and derived tables. Otherwise leave them tracked.
+# outputs/
+# models/
+
+# --- Logs / temp ---
+*.log
+.tmp/

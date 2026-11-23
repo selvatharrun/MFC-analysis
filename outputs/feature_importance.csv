@@ -1,0 +1,13 @@
+feature,importance,target
+filler,0.8510250039248624,IEC (meq/g)
+weight_pct,0.32030203523113937,IEC (meq/g)
+membrane,0.0,IEC (meq/g)
+filler,0.28729197138531026,Water swelling (%)
+weight_pct,0.2288627642557834,Water swelling (%)
+membrane,0.0,Water swelling (%)
+weight_pct,0.5373309137030103,Proton conductivity (S/cm)
+filler,0.21588599019282237,Proton conductivity (S/cm)
+membrane,0.0,Proton conductivity (S/cm)
+filler,1.0389221725191284,Thickness (µm)
+weight_pct,0.8953468090291512,Thickness (µm)
+membrane,0.0,Thickness (µm)

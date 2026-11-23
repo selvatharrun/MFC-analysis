@@ -1,0 +1,33 @@
+# Stage 1 - MFC membrane property prediction
+# Runtime: Python 3.15.2 (Windows x64)
+#
+# NOTE: CatBoost is intentionally omitted. CatBoost 1.2.10 ships wheels only
+# up to cp314, so it cannot be installed on Python 3.15 without a C++ source
+# build. Filler strings are normalised to ASCII in the pipeline, so CatBoost's
+# main advantage (native text features) is not needed here.
+#
+# Install:  python -m venv .venv
+#           .venv\Scripts\python -m pip install -r requirements.txt
+
+# --- core data ---
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+
+# --- modelling ---
+scikit-learn==1.9.1
+xgboost==3.4.1
+lightgbm==4.7.0
+joblib==1.6.0
+
+# --- visualisation / diagnostics ---
+matplotlib==3.11.2
+seaborn==0.13.2
+missingno==0.5.2
+shap==0.54.1
+tqdm==4.70.1
+
+# --- notebook execution ---
+ipykernel==7.4.0
+nbformat==5.11.1
+nbconvert==7.17.2

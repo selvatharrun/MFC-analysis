@@ -1,0 +1,52 @@
+s_no,paper_id,membrane,filler,weight_pct,notes
+2,P02,SPEEK,NoFiller,0.0,pc_S_cm flagged as IQR outlier
+3,P03,SPEEK,NoFiller,0.0,IEC flagged as IQR outlier
+15,P06,SPEEK,S-TNTs,2.5,IEC flagged as IQR outlier
+16,P06,SPEEK,S-TNTs,5.0,IEC flagged as IQR outlier
+17,P06,SPEEK,S-TNTs,7.5,IEC flagged as IQR outlier
+18,P06,SPEEK,S-TNTs,10.0,IEC flagged as IQR outlier
+26,P09,SPEEK,TiO2,,IEC flagged as IQR outlier
+28,P10,SPEEK15,NoFiller,0.0,proton conductivity corrected: MFC DATA - DATA STRUCTURE: 1.90 mS/cm
+29,P10,SPEEK20,NoFiller,0.0,proton conductivity corrected: MFC DATA - DATA STRUCTURE: 1.00 mS/cm
+30,P10,SPEEK,GO,,swelling flagged as IQR outlier
+31,P10,SPEEK,GO,,pc_S_cm flagged as IQR outlier
+33,P11,SPEEK,NoFiller,0.0,thickness 0.018 -> 180 µm (cm->um)
+34,P11,SPEEK,TiO2,2.5,thickness 0.017 -> 170 µm (cm->um)
+35,P11,SPEEK,TiO2,5.0,thickness 0.017 -> 170 µm (cm->um)
+36,P11,SPEEK,TiO2,7.5,thickness 0.018 -> 180 µm (cm->um)
+37,P11,SPEEK,TiO2,10.0,thickness 0.019 -> 190 µm (cm->um)
+39,P13,SPEEK,NoFiller,0.0,voltage 0.819 V -> 819 mV | swelling flagged as IQR outlier
+40,P13,SPEEK,GO,,voltage 0.757 V -> 757 mV | swelling flagged as IQR outlier
+50,P16,80% SPEEK + 20% PVdF-HFP,SiO2,7.5,power density 1.5 W/m² -> 1500 mW/m² | pc_S_cm flagged as IQR outlier
+52,P17,SPEEK,PES,3.0,thickness 0.11 -> 110 µm (mm->um) | proton conductivity masked: 9.63 with no unit given (0.0963 S/cm if 10^-2 units)
+53,P17,SPEEK,PES,5.0,thickness 0.15 -> 150 µm (mm->um)
+55,P19,SPEEK,NoFiller,0.0,voltage 0.59 V -> 590 mV | power density 1.31 W/m² -> 1310 mW/m²
+60,P21,SPEEK,NoFiller,,DS 20.8% moved from filler to ds_percent
+61,P21,SPEEK,NoFiller,,DS 41.0% moved from filler to ds_percent
+62,P21,SPEEK,NoFiller,,DS 63.6% moved from filler to ds_percent
+63,P21,SPEEK,NoFiller,,DS 76.0% moved from filler to ds_percent
+64,P22,SPEEK,CNT,,power density 0.885 W/m² -> 885 mW/m²
+65,P23,SPEEK,TiO2,2.5,voltage 0.598 V -> 598 mV | power density 1.08 W/m² -> 1080 mW/m²
+66,P23,SPEEK,TiO2,5.0,voltage 0.635 V -> 635 mV | power density 1.22 W/m² -> 1220 mW/m²
+67,P23,SPEEK,TiO2,7.5,voltage 0.619 V -> 619 mV | power density 1.15 W/m² -> 1150 mW/m²
+68,P23,SPEEK,TiO2,10.0,voltage 0.614 V -> 614 mV | power density 1.14 W/m² -> 1140 mW/m²
+69,P24,SPEEK,NoFiller,0.0,thickness 0.018 -> 180 µm (cm->um)
+70,P24,SPEEK,Fe3O4,2.5,thickness 0.017 -> 170 µm (cm->um)
+71,P24,SPEEK,Fe3O4,5.0,thickness 0.017 -> 170 µm (cm->um)
+72,P24,SPEEK,Fe3O4,7.5,thickness 0.018 -> 180 µm (cm->um)
+73,P24,SPEEK,Fe3O4,10.0,thickness 0.019 -> 190 µm (cm->um)
+76,P27,SPEEK,NoFiller,0.0,thickness 0.017 -> 170 µm (cm->um)
+77,P27,SPEEK,STA,2.5,thickness 0.018 -> 180 µm (cm->um)
+78,P27,SPEEK,STA,5.0,thickness 0.017 -> 170 µm (cm->um)
+79,P27,SPEEK,STA,7.5,thickness 0.019 -> 190 µm (cm->um)
+80,P27,SPEEK,STA,10.0,thickness 0.018 -> 180 µm (cm->um)
+83,P29,SPEEK,Polydopamine-coated HNT,,proton conductivity masked: 63 with no unit given (0.063 S/cm if mS/cm)
+84,P29,SPEEK,PWA-functionalized HNT,,proton conductivity masked: 86 with no unit given (0.086 S/cm if mS/cm) | swelling flagged as IQR outlier
+92,P30,SPEEK,S-SiO2,2.5,duplicate of S.No 20 (excluded from training)
+93,P30,SPEEK,S-SiO2,5.0,duplicate of S.No 21 (excluded from training)
+94,P30,SPEEK,S-SiO2,7.5,duplicate of S.No 22 (excluded from training)
+95,P30,SPEEK,S-SiO2,10.0,duplicate of S.No 23 (excluded from training)
+97,P30,SPEEK,S-POSS,2.5,duplicate of S.No 10 (excluded from training)
+98,P30,SPEEK,S-POSS,5.0,duplicate of S.No 11 (excluded from training) | membrane label corrected S-POSS -> SPEEK
+99,P30,SPEEK,S-POSS,7.5,membrane label corrected S-POSS -> SPEEK
+100,P30,SPEEK,S-POSS,10.0,membrane label corrected S-POSS -> SPEEK
